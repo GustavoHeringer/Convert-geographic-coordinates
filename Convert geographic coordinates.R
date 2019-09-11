@@ -1,13 +1,11 @@
-## Convert geographic coordinates from sexagesimal degree ##
-## (18º43'18.7") to decimal degrees (-18.72186) using R.  ##
-### Gustavo Heringer <<gustavoheringer@hotmail.com>>      ##
-### May 19 2019                                           ##
-############################################################
+## Convert geographic coordinates from sexagesimal degree (18º43'18.7") to decimal degrees (-18.72186) using R.  ##
+### Gustavo Heringer <<gustavoheringer@hotmail.com>>                                                             ##
+### May 19 2019                                                                                                  ##
 
 # Before start: 
-## Data from the Northern hemisphere and from the east of the Greenwich Meridian you must remove "-1*" or replace with "1*" in the calculation below.
+# Data from the Northern hemisphere and from the east of the Greenwich Meridian you must remove "-1*" or replace with "1*" in the calculation below.
 
-## Your data frame must look like: 
+# Your data frame must look like: 
 #  ID| degree_S| min_S| sec_S| degree_W| min_W| sec_W|
 # sp1|       18|    43|  18.7|       40|    10|  48.2|
 # sp2|       18|    33|  30.1|       40|    13|   4.7|
